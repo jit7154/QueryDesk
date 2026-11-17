@@ -1,0 +1,346 @@
+{
+  "total_questions": 36,
+  "single_agent": {
+    "avg_keyword_coverage": 0.5092592592592592,
+    "avg_citation_validity": 0.8611111111111112,
+    "p50_latency_ms": 3926.1,
+    "p95_latency_ms": 10977.2,
+    "avg_cost_usd": 4.4e-05
+  },
+  "supervisor_multi_agent": {
+    "avg_keyword_coverage": 0.6703703703703705,
+    "avg_citation_validity": 0.9722222222222222,
+    "verification_pass_rate": 1.0,
+    "retried_count": 2,
+    "retry_fixed_count": 2,
+    "p50_latency_ms": 7602.0,
+    "p95_latency_ms": 21379.2,
+    "avg_cost_usd": 8.4e-05
+  },
+  "per_query_comparison": [
+    {
+      "id": "doc_01",
+      "type": "document_only",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "document_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "doc_02",
+      "type": "document_only",
+      "single_coverage": 0.0,
+      "supervisor_coverage": 0.8,
+      "supervisor_route": "document_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "doc_03",
+      "type": "document_only",
+      "single_coverage": 0.5,
+      "supervisor_coverage": 0.5,
+      "supervisor_route": "document_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "doc_04",
+      "type": "document_only",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "document_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "doc_05",
+      "type": "document_only",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "doc_06",
+      "type": "document_only",
+      "single_coverage": 0.5,
+      "supervisor_coverage": 0.5,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "doc_07",
+      "type": "document_only",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "document_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "doc_08",
+      "type": "document_only",
+      "single_coverage": 0.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "document_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "doc_09",
+      "type": "document_only",
+      "single_coverage": 0.5,
+      "supervisor_coverage": 0.5,
+      "supervisor_route": "document_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "doc_10",
+      "type": "document_only",
+      "single_coverage": 0.3333333333333333,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "document_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "doc_11",
+      "type": "document_only",
+      "single_coverage": 0.0,
+      "supervisor_coverage": 0.0,
+      "supervisor_route": "document_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "doc_12",
+      "type": "document_only",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 0.3333333333333333,
+      "supervisor_route": "document_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "sql_01",
+      "type": "sql_only",
+      "single_coverage": 0.0,
+      "supervisor_coverage": 0.0,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": true
+    },
+    {
+      "id": "sql_02",
+      "type": "sql_only",
+      "single_coverage": 0.6666666666666666,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "sql_03",
+      "type": "sql_only",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "sql_04",
+      "type": "sql_only",
+      "single_coverage": 0.0,
+      "supervisor_coverage": 0.0,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "sql_05",
+      "type": "sql_only",
+      "single_coverage": 0.5,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "sql_06",
+      "type": "sql_only",
+      "single_coverage": 0.0,
+      "supervisor_coverage": 0.0,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "sql_07",
+      "type": "sql_only",
+      "single_coverage": 0.0,
+      "supervisor_coverage": 0.0,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "sql_08",
+      "type": "sql_only",
+      "single_coverage": 0.5,
+      "supervisor_coverage": 0.5,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "sql_09",
+      "type": "sql_only",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "sql_10",
+      "type": "sql_only",
+      "single_coverage": 0.0,
+      "supervisor_coverage": 0.0,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": true
+    },
+    {
+      "id": "sql_11",
+      "type": "sql_only",
+      "single_coverage": 0.0,
+      "supervisor_coverage": 0.0,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "sql_12",
+      "type": "sql_only",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "sql_only",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_01",
+      "type": "hybrid",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_02",
+      "type": "hybrid",
+      "single_coverage": 0.6666666666666666,
+      "supervisor_coverage": 0.6666666666666666,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_03",
+      "type": "hybrid",
+      "single_coverage": 0.3333333333333333,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_04",
+      "type": "hybrid",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_05",
+      "type": "hybrid",
+      "single_coverage": 0.0,
+      "supervisor_coverage": 0.5,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_06",
+      "type": "hybrid",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_07",
+      "type": "hybrid",
+      "single_coverage": 0.5,
+      "supervisor_coverage": 0.5,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_08",
+      "type": "hybrid",
+      "single_coverage": 0.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_09",
+      "type": "hybrid",
+      "single_coverage": 0.3333333333333333,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_10",
+      "type": "hybrid",
+      "single_coverage": 1.0,
+      "supervisor_coverage": 1.0,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_11",
+      "type": "hybrid",
+      "single_coverage": 0.3333333333333333,
+      "supervisor_coverage": 0.6666666666666666,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    },
+    {
+      "id": "hyb_12",
+      "type": "hybrid",
+      "single_coverage": 0.6666666666666666,
+      "supervisor_coverage": 0.6666666666666666,
+      "supervisor_route": "hybrid",
+      "supervisor_verified": true,
+      "supervisor_retried": false
+    }
+  ]
+}

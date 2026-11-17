@@ -1,0 +1,569 @@
+{
+  "total_queries": 24,
+  "bm25": {
+    "recall@5": 0.9583333333333334,
+    "mrr": 0.7194444444444444
+  },
+  "vector": {
+    "recall@5": 1.0,
+    "mrr": 0.8777777777777777
+  },
+  "hybrid_rrf": {
+    "recall@5": 1.0,
+    "mrr": 0.923611111111111
+  },
+  "detailed_results": [
+    {
+      "id": "doc_01",
+      "question": "What is the general return window for RetailFlow items?",
+      "target_documents": [
+        "RetailFlow_Refund_and_Returns_Policy.docx",
+        "RetailFlow_Refund_and_Returns_Policy.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 3,
+        "recall@5": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "doc_02",
+      "question": "What evidence is required when reporting damaged products, and within what timeframe?",
+      "target_documents": [
+        "RetailFlow_Refund_and_Returns_Policy.docx",
+        "RetailFlow_Refund_and_Returns_Policy.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 3,
+        "recall@5": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "doc_03",
+      "question": "Within how many hours are refunds processed for damaged items once photos are verified?",
+      "target_documents": [
+        "RetailFlow_Refund_and_Returns_Policy.docx",
+        "RetailFlow_Refund_and_Returns_Policy.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "doc_04",
+      "question": "What are the late delivery penalty terms in supplier Apex Logistics agreement?",
+      "target_documents": [
+        "Supplier_Contract_Apex_6560211a19b4.pdf",
+        "Supplier_Contract_Apex_6560211a19b4.docx"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "doc_05",
+      "question": "What late delivery penalty clause applies to supplier Nova Hardware?",
+      "target_documents": [
+        "Supplier_Contract_Nova_cc419e0650a3.docx",
+        "Supplier_Contract_Nova_cc419e0650a3.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 3,
+        "recall@5": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "vector": {
+        "hit_rank": 3,
+        "recall@5": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "hybrid": {
+        "hit_rank": 3,
+        "recall@5": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    },
+    {
+      "id": "doc_06",
+      "question": "What is the freight subsidy percentage credited to Apex Logistics?",
+      "target_documents": [
+        "Supplier_Contract_Apex_6560211a19b4.pdf",
+        "Supplier_Contract_Apex_6560211a19b4.docx"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "doc_07",
+      "question": "What item categories are strictly non-returnable under RetailFlow policy?",
+      "target_documents": [
+        "RetailFlow_Refund_and_Returns_Policy.docx",
+        "RetailFlow_Refund_and_Returns_Policy.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "doc_08",
+      "question": "How many business days does a customer have to drop off a parcel after an RMA shipping label is issued?",
+      "target_documents": [
+        "RetailFlow_Refund_and_Returns_Policy.docx",
+        "RetailFlow_Refund_and_Returns_Policy.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "doc_09",
+      "question": "What order fulfillment dispatch SLA does Apex Logistics commit to upon receiving an order notification?",
+      "target_documents": [
+        "Supplier_Contract_Apex_6560211a19b4.pdf",
+        "Supplier_Contract_Apex_6560211a19b4.docx"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "doc_10",
+      "question": "What is the order escalation workflow under the Customer Support SOP?",
+      "target_documents": [
+        "Customer_Support_SOP_Order_Escalations.pdf",
+        "Customer_Support_SOP_Order_Escalations.docx"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "doc_11",
+      "question": "What consumer rights regulation does RetailFlow comply with under its compliance policy?",
+      "target_documents": [
+        "RetailFlow_Regulatory_Compliance_Policy.pdf",
+        "RetailFlow_Regulatory_Compliance_Policy.docx"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "doc_12",
+      "question": "What does the Q3 Financial Summary state regarding supplier late delivery penalties and recoveries?",
+      "target_documents": [
+        "Q3_RetailFlow_Financial_Summary.docx",
+        "Q3_RetailFlow_Financial_Summary.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 2,
+        "recall@5": 1.0,
+        "mrr": 0.5
+      }
+    },
+    {
+      "id": "hyb_01",
+      "question": "What are the late delivery penalty terms for supplier Apex Logistics (seller_id: 6560211a19b47992c3666cc44a7e94c0), and how many total orders did this seller fulfill in the database?",
+      "target_documents": [
+        "Supplier_Contract_Apex_6560211a19b4.pdf",
+        "Supplier_Contract_Apex_6560211a19b4.docx"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "hyb_02",
+      "question": "What is the contractual late delivery penalty for supplier Nova Hardware (cc419e0650a37830425f55e0d7b42d33), and what was their total sales revenue?",
+      "target_documents": [
+        "Supplier_Contract_Nova_cc419e0650a3.docx",
+        "Supplier_Contract_Nova_cc419e0650a3.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "hyb_03",
+      "question": "According to the contract for seller Apex (6560211a19b47992c3666cc44a7e94c0), penalties apply if delivery is late by 3+ days. How many orders for this seller were delivered after the estimated delivery date?",
+      "target_documents": [
+        "Supplier_Contract_Apex_6560211a19b4.pdf",
+        "Supplier_Contract_Apex_6560211a19b4.docx"
+      ],
+      "bm25": {
+        "hit_rank": 5,
+        "recall@5": 1.0,
+        "mrr": 0.2
+      },
+      "vector": {
+        "hit_rank": 5,
+        "recall@5": 1.0,
+        "mrr": 0.2
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "hyb_04",
+      "question": "What is the late delivery penalty clause for supplier Horizon (1f50f920176fa813b614069b9709a9d6), and what state is this seller located in?",
+      "target_documents": [
+        "Supplier_Contract_Horizon_1f50f920176f.docx",
+        "Supplier_Contract_Horizon_1f50f920176f.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 5,
+        "recall@5": 1.0,
+        "mrr": 0.2
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "hyb_05",
+      "question": "What is the dispatch SLA for seller Starlight (da8622b14eb17ae54651113864704bfa), and what is the total number of distinct products they sold?",
+      "target_documents": [
+        "Supplier_Contract_Starlight_da8622b14eb1.docx",
+        "Supplier_Contract_Starlight_da8622b14eb1.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 3,
+        "recall@5": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "hyb_06",
+      "question": "What is the penalty cap for supplier Vanguard (4a3ca9315b744ce9f4e93744cc26c400), and what is their average item price?",
+      "target_documents": [
+        "Supplier_Contract_Vanguard_4a3ca9315b74.pdf",
+        "Supplier_Contract_Vanguard_4a3ca9315b74.docx"
+      ],
+      "bm25": {
+        "hit_rank": null,
+        "recall@5": 0.0,
+        "mrr": 0.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "hyb_07",
+      "question": "Under the RetailFlow damaged goods refund policy, what refund percentage is provided, and what was the average payment value for orders in Sao Paulo?",
+      "target_documents": [
+        "RetailFlow_Refund_and_Returns_Policy.docx",
+        "RetailFlow_Refund_and_Returns_Policy.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 5,
+        "recall@5": 1.0,
+        "mrr": 0.2
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "hyb_08",
+      "question": "What are the customer escalation tiers in the Customer Support SOP, and how many orders are currently in 'canceled' status?",
+      "target_documents": [
+        "Customer_Support_SOP_Order_Escalations.pdf",
+        "Customer_Support_SOP_Order_Escalations.docx"
+      ],
+      "bm25": {
+        "hit_rank": 3,
+        "recall@5": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "hyb_09",
+      "question": "What carrier bottleneck issues are cited in the Warehouse Operations Report 2024, and what is the overall average delivery time in days for delivered orders?",
+      "target_documents": [
+        "Warehouse_Operations_Report_2024.docx",
+        "Warehouse_Operations_Report_2024.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 5,
+        "recall@5": 1.0,
+        "mrr": 0.2
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "hyb_10",
+      "question": "According to the Procurement and Vendor Policy, what are the supplier SLA benchmarks, and what are the top 3 seller states by seller count?",
+      "target_documents": [
+        "Procurement_and_Vendor_Policy.pdf",
+        "Procurement_and_Vendor_Policy.docx"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "hyb_11",
+      "question": "What is the data privacy compliance standard (LGPD) specified in the Compliance Policy, and how many distinct customer IDs are stored in the database?",
+      "target_documents": [
+        "RetailFlow_Regulatory_Compliance_Policy.pdf",
+        "RetailFlow_Regulatory_Compliance_Policy.docx"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "hybrid": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      }
+    },
+    {
+      "id": "hyb_12",
+      "question": "What supplier penalty recoveries were recorded in the Q3 Financial Summary, and what was the total sales revenue generated by seller Apex (6560211a19b47992c3666cc44a7e94c0)?",
+      "target_documents": [
+        "Q3_RetailFlow_Financial_Summary.docx",
+        "Q3_RetailFlow_Financial_Summary.pdf"
+      ],
+      "bm25": {
+        "hit_rank": 1,
+        "recall@5": 1.0,
+        "mrr": 1.0
+      },
+      "vector": {
+        "hit_rank": 3,
+        "recall@5": 1.0,
+        "mrr": 0.3333333333333333
+      },
+      "hybrid": {
+        "hit_rank": 3,
+        "recall@5": 1.0,
+        "mrr": 0.3333333333333333
+      }
+    }
+  ]
+}

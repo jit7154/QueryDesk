@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  backend-test:
+    name: Lint & Test Backend
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: querydesk_user
+          POSTGRES_PASSWORD: querydesk_password
+          POSTGRES_DB: querydesk
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e "./backend[dev]"
+
+      - name: Run linter
+        run: |
+          ruff check backend/
+
+      - name: Run tests
+        env:
+          DATABASE_URL: postgresql://querydesk_user:querydesk_password@localhost:5432/querydesk
+          DATABASE_READONLY_URL: postgresql://querydesk_user:querydesk_password@localhost:5432/querydesk
+          ENVIRONMENT: test
+        run: |
+          pytest backend/tests/ -v -m "not integration"
